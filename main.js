@@ -1,5 +1,6 @@
 const { app, BrowserWindow } = require('electron');
 const path = require('path');
+const db = require('./database.js');
 
 function createWindow () {
   // Create the window
